@@ -1,10 +1,6 @@
 <!-- Header / Character Description -->
 <div style="float: left">
-    <!--<div style="float: left"><img src="https://www.rpgstore.co.uk/wp-content/uploads/2017/04/Star-Wars-Logo1.png" style="float: left; width: 300px;"></img><br>-->
-	<!--<div style="float: left"><img src="https://github.com/WilliamBarkerCoC/Public-Domain-Images/blob/main/SWR.PNG?raw=true" style="float: left; width: 300px;"></img><br>-->
-	<!--<div style="float: left"><img src="https://i.imgur.com/LT2oQxM.png" style="float: left; width: 300px;"></img><br>-->
-	<!--<div style="float: left"><img src="https://github.com/WilliamBarkerCoC/Public-Domain-Images/blob/main/SWR logo.PNG?raw=true" style="float: left; width: 300px;"></img><br>-->
-	<div style="float: left"><img src="https://github.com/WilliamBarkerCoC/Public-Domain-Images/blob/main/Sith Logo II.PNG?raw=true" style="float: left; width: 300px;"></img><br>
+	<div style="float: left"><img src="https://github.com/WilliamBarkerCoC/Public-Domain-Images/blob/main/JediVsSith.png?raw=true" style="float: left; width: 300px;"></img><br>
     <div style="float: left; width: 30px;">&nbsp;</div><div style="float: left; width: 270px; font-size: 2em;">Character Sheet</div></div>
     <div style="float: left"><input type="text" name="attr_playername" style="width: 190px;"><br>Player Name</div>
     <div style="float: left"><input type="text" name="attr_charactername" style="width: 220px;"> <br>Character Name</div>
@@ -751,14 +747,12 @@ on("change:craftpoints change:entertainpoints change:knowledgepoints change:prof
 		if (pvalue.astrogatecheckbox == 0 && ranks > 0) {
 			ranks = (ranks - 1)*2 + 1;
 		}
-		//console.log("  astrogate ranks: " + ranks);
 		tot += ranks
 		
 		ranks = Number(pvalue.balanceranks) || 0
 		if (pvalue.balancecheckbox == 0 && ranks > 0){
 			ranks = (ranks - 1)*2 + 1;
 		}
-		//console.log("  balance ranks: " + ranks);
 		tot += ranks
 		
 		ranks = Number(pvalue.bluffranks) || 0
